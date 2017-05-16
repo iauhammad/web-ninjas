@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ======================================================================= -->
+<!-- Summary      : XSD to validate XML used to store chat rooms information -->
+<!-- Created by   : Mohammad Irfaan Auhammad   					   		     -->
+<!-- Created on   : Jan 23, 2017               					   		     -->
+<!-- Comment	  : XML Assignment 01          					   		     -->
+<!-- ======================================================================= -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="chatRooms">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="chatRoom" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="chatRoomName" type="xs:string" />
+							<xs:element name="createdAt" type="xs:date" />
+							<xs:element name="administrators">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="administrator" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="email" type="xs:string" />
+													<xs:element name="displayName" type="xs:string" />
+												</xs:sequence>
+												<xs:attribute name="userId" type="xs:integer" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="roomId" type="xs:integer" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- =============================================================== -->
+<!-- Summary      : XML to store information for multiple chat rooms -->
+<!-- Created by   : Mohammad Irfaan Auhammad   					             -->
+<!-- Created on   : Jan 23, 2017               					             -->
+<!-- Comment	    : XML Assignment 01          					             -->
+<!-- =============================================================== -->
+<chatRooms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="chatrooms.xsd">
+	<chatRoom roomId="1">
+		<chatRoomName><![CDATA[New year's fireworks]]></chatRoomName>
+		<createdAt>2016-12-31</createdAt>
+		<administrators>
+			<administrator userId="4">
+				<email>johndoe@dummymail.com</email>
+				<displayName>John Doe</displayName>
+			</administrator>
+		</administrators>
+	</chatRoom>
+	<chatRoom roomId="2">
+		<chatRoomName><![CDATA[Star Wars]]></chatRoomName>
+		<createdAt>2017-01-01</createdAt>
+		<administrators>
+			<administrator userId="5">
+				<email>luke@dummymail.com</email>
+				<displayName>Jedi</displayName>
+			</administrator>
+		</administrators>
+	</chatRoom>
+	<chatRoom roomId="3">
+		<chatRoomName><![CDATA[XML Schemas]]></chatRoomName>
+		<createdAt>2017-01-23</createdAt>
+		<administrators>
+			<administrator userId="2">
+				<email>rock@dummymail.com</email>
+				<displayName>Rock</displayName>
+			</administrator>
+			<administrator userId="1">
+				<email>lisa@dummymail.com</email>
+				<displayName>Lisa</displayName>
+			</administrator>
+		</administrators>
+	</chatRoom>
+  <chatRoom roomId="4">
+    <chatRoomName><![CDATA[XML & Web Services Assignment 03]]></chatRoomName>
+    <createdAt>2017-03-21</createdAt>
+    <administrators>
+      <administrator userId="1418993684812045">
+        <email>irfaan1213@gmail.com</email>
+        <displayName>Irfaan Auhammad</displayName>
+      </administrator>
+    </administrators>
+  </chatRoom>
+  <chatRoom roomId="5">
+    <chatRoomName><![CDATA[XML & Web Services Final Project]]></chatRoomName>
+    <createdAt>2017-03-21</createdAt>
+    <administrators>
+      <administrator userId="1418993684812045">
+        <email>irfaan1213@gmail.com</email>
+        <displayName>Irfaan Auhammad</displayName>
+      </administrator>
+    </administrators>
+  </chatRoom>
+</chatRooms>

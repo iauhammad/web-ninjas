@@ -1,0 +1,230 @@
+﻿
+.jumbotron {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header.room {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-h2 {
+    font-size: 1.75em;
+}
+
+.facebook-signin {
+    text-align: center;
+}
+
+.facebook-signin div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.connected-user {
+    text-align: right;
+    padding-right: 8px;
+}
+
+.connected-user__name {
+    font-weight: bold;
+}
+
+.room-details {
+    font-weight: bold;
+}
+
+.room-details span {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-inline {
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+.facebook-signin {
+    margin: 3em auto;
+}
+
+.table th {
+    text-align: left;
+    background-color: #337AB7;
+    color: white;
+}
+
+.main-messages {
+    position: relative;
+}
+
+.chat-messages, .compose-message {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.chat-messages {
+    height: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 4px 4px;
+    margin: 0.5em auto;
+    padding: 8px 48px;
+    overflow: auto;
+}
+
+.compose-message {
+    text-align: center;
+    padding: 8px 4px;
+}
+
+.compose-message div:last-child {
+    padding: 16px 4px;
+}
+
+.footer {
+    padding: 8px 0;
+    margin-top: 1em;
+    border-top: 1px solid lightgrey;
+}
+
+.footer__back-link {
+    text-align: left;
+}
+
+.footer__text {
+    text-align: center;
+}
+
+.bubble-container {
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.bubble-container > div.bubble-me {
+    float: right;
+    clear: both;
+}
+
+.bubble-others {
+    position: relative;
+    display: inline-block;
+    max-width: 75%;
+    padding: 8px 8px;
+    background: #A4D7D2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #7F7F7F;
+    margin: 8px 8px;
+}
+
+.bubble-others:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #A4D7D2;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -20px;
+    top: 17px;
+}
+
+.bubble-others:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #7F7F7F;
+    display: block;
+    width: 0;
+    z-index: 0;
+    left: -21px;
+    top: 17px;
+}
+
+.bubble-me {
+    position: relative;
+    display: inline-block;
+    max-width: 75%;
+    padding: 8px 8px;
+    background: #E39A73;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #7F7F7F;
+    margin: 8px 8px;
+}
+
+.bubble-me:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent #E39A73;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -20px;
+    top: 17px;
+}
+
+.bubble-me:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent #7F7F7F;
+    display: block;
+    width: 0;
+    z-index: 0;
+    right: -21px;
+    top: 17px;
+}
+
+.bubble-container__name {
+    color: #f7da36;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.bubble-container__msg {
+    font-weight: 500;
+}
+
+.bubble-container__time {
+    display: block;
+    text-align: right;
+    margin-left: 1em;
+    margin-top: 12px;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+}
+
+.profile-pic {
+    display: inline;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.profile-pic img{
+    width: 35px;
+    height: auto;
+}
+
+.currentUserDetails {
+    text-decoration: underline;
+    color: lightcoral;
+    cursor: pointer;
+}

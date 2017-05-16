@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================= -->
+<!-- Summary      : XML to store data for a conversation/chat room -->
+<!-- Created by   : Mohammad Irfaan Auhammad   					           -->
+<!-- Created on   : Mar 21, 2017               					           -->
+<!-- Comment	    : XML Assignment 03          					           -->
+<!-- ============================================================= -->
+<messages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="messages.xsd">
+  <message messageId="1" chatRoomId="1">
+    <textMessage><![CDATA[Hey Lisa, Your great aunt just passed away... LOL]]></textMessage>
+    <messageSentAt>2017-01-23T16:20:10</messageSentAt>
+    <sender userId="3">
+      <email>tope@dummymail.com</email>
+      <displayName>Tope</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="2" chatRoomId="1">
+    <textMessage><![CDATA[Why is that funny?]]></textMessage>
+    <messageSentAt>2017-01-23T16:21:05</messageSentAt>
+    <sender userId="1">
+      <email>lisa@dummymail.com</email>
+      <displayName>Lisa</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="3" chatRoomId="1">
+    <textMessage><![CDATA[It's not funny Lisa... What do you mean?]]></textMessage>
+    <messageSentAt>2017-01-23T16:23:00</messageSentAt>
+    <sender userId="3">
+      <email>tope@dummymail.com</email>
+      <displayName>Tope</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="4" chatRoomId="2">
+    <textMessage><![CDATA[Dude, LOL means Laughing Out Loud.]]></textMessage>
+    <messageSentAt>2017-01-23T16:24:15</messageSentAt>
+    <sender userId="2">
+      <email>rock@dummymail.com</email>
+      <displayName>Rock</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="5" chatRoomId="2">
+    <textMessage><![CDATA[Oh no! I sent to everyone, I thought it means Lots Of Love.]]></textMessage>
+    <messageSentAt>2017-01-23T16:27:27</messageSentAt>
+    <sender userId="3">
+      <email>tope@dummymail.com</email>
+      <displayName>Tope</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="6" chatRoomId="3">
+    <textMessage><![CDATA[Hi there ...]]></textMessage>
+    <messageSentAt>2017-03-08T22:36:29</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="7" chatRoomId="3">
+    <textMessage><![CDATA[This is just testing the add new message function of the program...]]></textMessage>
+    <messageSentAt>2017-03-08T22:42:48</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="8" chatRoomId="3">
+    <textMessage><![CDATA[A new message as Irfaan now]]></textMessage>
+    <messageSentAt>2017-03-10T16:39:05</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="9" chatRoomId="1">
+    <textMessage><![CDATA[Try to add a message here...]]></textMessage>
+    <messageSentAt>2017-03-10T16:39:27</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="10" chatRoomId="4">
+    <textMessage><![CDATA[crash]]></textMessage>
+    <messageSentAt>2017-03-10T16:41:11</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="11" chatRoomId="1">
+    <textMessage><![CDATA[After adding some simple styling, just trying to add a very long message here to test if the bubble box does adjust it's size well according to the text inside. I will just keep on writing and writing... ok i guess its enough text to test here ...]]></textMessage>
+    <messageSentAt>2017-03-11T01:36:22</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="12" chatRoomId="1">
+    <textMessage><![CDATA[hey there]]></textMessage>
+    <messageSentAt>2017-03-11T01:44:53</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="13" chatRoomId="1">
+    <textMessage><![CDATA[it blinks on reload...]]></textMessage>
+    <messageSentAt>2017-03-11T01:45:19</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="14" chatRoomId="2">
+    <textMessage><![CDATA[HTTP 5203 - XML & Web Services Assignment 02]]></textMessage>
+    <messageSentAt>2017-03-11T01:58:06</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="15" chatRoomId="3">
+    <textMessage><![CDATA[Wrapped up...]]></textMessage>
+    <messageSentAt>2017-03-11T02:52:15</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="16" chatRoomId="3">
+    <textMessage><![CDATA[hi there]]></textMessage>
+    <messageSentAt>2017-03-13T07:55:03</messageSentAt>
+    <sender userId="12">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Mohammad Irfaan</displayName>
+      <avatar title="A default avatar used">Images/defaultAvatar.png</avatar>
+    </sender>
+  </message>
+  <message messageId="17" chatRoomId="3">
+    <textMessage><![CDATA[This is me sending a message to add to the xml file after having logged in with Facebook.]]></textMessage>
+    <messageSentAt>2017-03-21T08:14:11</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="18" chatRoomId="2">
+    <textMessage><![CDATA[XML & Web Services Assignment 03 is about AJAX]]></textMessage>
+    <messageSentAt>2017-03-21T14:53:23</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="19" chatRoomId="3">
+    <textMessage><![CDATA[This message has been added to the XML file using AJAX.]]></textMessage>
+    <messageSentAt>2017-03-21T15:21:04</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="20" chatRoomId="3">
+    <textMessage><![CDATA[Message submits without page refresh]]></textMessage>
+    <messageSentAt>2017-03-21T15:22:49</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="21" chatRoomId="2">
+    <textMessage><![CDATA[A test message sent from another account (dummy profile)]]></textMessage>
+    <messageSentAt>2017-03-21T15:55:46</messageSentAt>
+    <sender userId="1553634654668736">
+      <email>jonnyq46@gmail.com</email>
+      <displayName>Jonny Quinn</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1553634654668736/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="22" chatRoomId="2">
+    <textMessage><![CDATA[Each 2 seconds the chat window refreshes]]></textMessage>
+    <messageSentAt>2017-03-21T15:58:29</messageSentAt>
+    <sender userId="1553634654668736">
+      <email>jonnyq46@gmail.com</email>
+      <displayName>Jonny Quinn</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1553634654668736/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="23" chatRoomId="4">
+    <textMessage><![CDATA[What do you mean?]]></textMessage>
+    <messageSentAt>2017-03-21T21:56:35</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+  <message messageId="24" chatRoomId="1">
+    <textMessage><![CDATA[Facebook changed their API to return JSON recently...]]></textMessage>
+    <messageSentAt>2017-04-03T14:54:33</messageSentAt>
+    <sender userId="1418993684812045">
+      <email>irfaan1213@gmail.com</email>
+      <displayName>Irfaan Auhammad</displayName>
+      <avatar title="User's profile picture from Facebook">http://graph.facebook.com/1418993684812045/picture?type=large</avatar>
+    </sender>
+  </message>
+</messages>
